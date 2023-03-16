@@ -12,7 +12,7 @@ root.title("Music Player")
 # create a label to display the status
 status_label = tk.Label(root, text="Music Player")
 status_label.pack()
-
+# creating buttons for differnt purposes
 # create a button to load the music file
 def load_music():
     music_file = tk.filedialog.askopenfilename()
